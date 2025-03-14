@@ -28,7 +28,7 @@ export default function App() {
             <Text className="text-3xl text-white font-bold text-center">
               Discover Endless Possibilities With{" "}
               <Text className="text-secondary-200">
-                LifeMax
+                Aora
               </Text>
             </Text>
             {/* Curved underline right below app name text */}
@@ -39,11 +39,11 @@ export default function App() {
             />
           </View>
           <Text className="text-sm font-pregular text-gray-100 mt-7 text-center">
-            Lorem Ipsum Lorem salve 
+            ..........
           </Text>
           <CustomButton
             title="Continue with Email"
-            handlePress={() => router.push("/home") }
+            handlePress={() => router.push("/sign-in") }
             containerStyles="w-full mt-7"
           />
         </View>

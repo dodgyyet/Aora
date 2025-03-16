@@ -5,6 +5,7 @@ import { images } from '../../constants'
 import FormField from '../../components/FormField'
 import CustomButton from '../../components/CustomButton'
 import { Link } from "expo-router"
+import { router } from 'expo-router'
 
 // Initializes empty state for email and password field
 const SignUp = () => {
@@ -52,7 +53,9 @@ const SignUp = () => {
 
           <CustomButton
             title = "Sign Up"
-            handlePress={submit}
+            handlePress={() => router.push("/home") }
+            
+
             containerStyles={"mt-7"}
             isLoading={isSubmitting}
           />
